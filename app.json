@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Kawai To Do",
+    "slug": "kawai-to",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#23657"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.godjaejun.kawai"
+    },
+    "android": {
+    "package": "com.godjaejun.kawai"
+    }
+  }
+}
